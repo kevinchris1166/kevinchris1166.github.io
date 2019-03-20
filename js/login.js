@@ -18,7 +18,7 @@ function login() {
         alert('Login Success');
         localStorage.setItem('statusLogin','success');
       
-        window.location = 'index.html';
+        window.location = 'data.html';
       }
     } else {
       alert('Login Failed');
@@ -28,5 +28,5 @@ function login() {
   
   function logout(){
     localStorage.setItem('statusLogin','failed');
-    window.location = 'login.html';
+    window.location = 'index.html';
   }
